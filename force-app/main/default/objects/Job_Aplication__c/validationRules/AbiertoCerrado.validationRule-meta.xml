@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AbiertoCerrado</fullName>
+    <active>true</active>
+    <description>No se puede aplicar si la aplicacion esta cerrada</description>
+    <errorConditionFormula>IF(TEXT(Position__r.Estado__c) = &quot;CERRADO&quot;, true, false)</errorConditionFormula>
+    <errorMessage>No se puede aplicar si la aplicacion esta cerrada</errorMessage>
+</ValidationRule>

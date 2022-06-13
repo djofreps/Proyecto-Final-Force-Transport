@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ciudad__c</fullName>
+    <externalId>false</externalId>
+    <label>Ciudad</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Provincias__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Buzios</fullName>
+                <default>false</default>
+                <label>Buzios</label>
+            </value>
+            <value>
+                <fullName>Ciudad de la paz</fullName>
+                <default>false</default>
+                <label>Ciudad de la paz</label>
+            </value>
+            <value>
+                <fullName>Ciudad de lima</fullName>
+                <default>false</default>
+                <label>Ciudad de lima</label>
+            </value>
+            <value>
+                <fullName>Cochabamba</fullName>
+                <default>false</default>
+                <label>Cochabamba</label>
+            </value>
+            <value>
+                <fullName>Godoy Cruz</fullName>
+                <default>false</default>
+                <label>Godoy Cruz</label>
+            </value>
+            <value>
+                <fullName>Luque</fullName>
+                <default>false</default>
+                <label>Luque</label>
+            </value>
+            <value>
+                <fullName>Punta del este</fullName>
+                <default>false</default>
+                <label>Punta del este</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Florianopolis</controllingFieldValue>
+            <controllingFieldValue>Aguas Corrientes</controllingFieldValue>
+            <valueName>Buzios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Florianopolis</controllingFieldValue>
+            <controllingFieldValue>Cochabamba</controllingFieldValue>
+            <valueName>Ciudad de lima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central</controllingFieldValue>
+            <controllingFieldValue>Departamento del Salto</controllingFieldValue>
+            <valueName>Ciudad de la paz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consepcion</controllingFieldValue>
+            <valueName>Godoy Cruz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cordillera</controllingFieldValue>
+            <valueName>Luque</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cordoba</controllingFieldValue>
+            <valueName>Punta del este</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cusco</controllingFieldValue>
+            <valueName>Cochabamba</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

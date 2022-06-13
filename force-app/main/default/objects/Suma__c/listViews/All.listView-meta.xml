@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+<<<<<<< HEAD
+    <columns>NAME</columns>
+    <columns>Numero1__c</columns>
+    <columns>Numero2__c</columns>
+    <columns>Resultado__c</columns>
+=======
+<<<<<<< HEAD
+    <columns>NAME</columns>
+    <columns>n1__c</columns>
+    <columns>n2__c</columns>
+    <columns>resultado__c</columns>
+=======
+>>>>>>> 4bf7096c670208e543e76815b116def26262e037
+>>>>>>> 010199fc17aaaaac2f2d0b3806cafb36f0b74a2d
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>
